@@ -34,6 +34,19 @@
     font-weight: 700;
     padding: 18px 35px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-primary:hover {
+    background: #FFF;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.btn-contact-me:hover{
+    background: #FD6E0A;
+    color: #FFF;
+    border: none;
 }
 
 .text-center {
@@ -113,6 +126,15 @@ nav li a {
 .banner-profile-pic {
     width: 580px;
 }
+
+.btn-contact-me {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    background: #FFF;
+    margin-left: 10px;
+}
+
 
 /* main styles */
 main {
@@ -228,7 +250,7 @@ footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
     margin-top: 100px;
 }
 
@@ -240,8 +262,10 @@ footer {
     text-align: left;
 }
 
-footer input[type=text], footer input[type=email], footer textarea{
-    color:#757575;
+footer input[type=text],
+footer input[type=email],
+footer textarea {
+    color: #757575;
     border-radius: 5px;
     background: #FFF;
     padding: 18px;
@@ -250,5 +274,3 @@ footer input[type=text], footer input[type=email], footer textarea{
     width: 100%;
     margin-bottom: 24px;
 }
-
-
