@@ -36,7 +36,7 @@
     border: none;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -212,14 +212,43 @@ main section {
     font-weight: 400;
 }
 
-.resume-column hr{
+.resume-column hr {
     background: #D1D1D1;
     margin: 30px 0;
 }
 
-.btn-download-cv{
+.btn-download-cv {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
+/* Footer Section Styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3;
+    margin-top: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+footer input[type=text], footer input[type=email], footer textarea{
+    color:#757575;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px;
+    border: none;
+    display: flex;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
 
